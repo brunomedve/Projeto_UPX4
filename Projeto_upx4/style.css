@@ -1,0 +1,191 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+body{
+    font-family: Open Sans, sans-serif;
+   
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#topbar{
+    background-color: #fff;
+    padding: 30px;
+    text-align: right;
+}
+
+.logo{
+    padding: 10px;
+    height: 50px;
+}
+
+.list1, .barra1{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    color: #011334;
+
+}
+
+.barra1:hover{
+    width: 130px;
+    border-radius: 20px;
+    text-align: center;
+ 
+    background: linear-gradient(180deg, #232323 0%, #44a644 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-weight: 600;
+}
+
+.description{
+    width: 500px;
+    height: 396px;
+    float: left;
+    color: #011334;
+}
+
+.title{
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 70px;
+    font-weight: 300;
+}
+
+.subtitle{
+    max-width: 400PX;
+    margin: auto;
+    text-align: center;font-weight: 300;
+}
+
+.picture1{
+    height: 385px;
+    max-width: 800px;
+}
+ 
+#downbar{
+    background-color: #56C174;
+    padding: 10px;
+    line-height: 80px;
+}
+
+.nav2{
+    display: inline-block;
+}
+
+.list2, .barra2{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 15px;
+    color: #56C174;
+    font-weight: bold;
+}
+
+#txtbusca{
+    margin-left: 30px;
+    border-radius: 15px;
+    width: 350px;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+}
+
+::placeholder{
+    color: #56C174;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background-image: url(./Assets/lupa.png);
+    background-repeat: no-repeat;
+
+    background-position-x: calc(100%);
+    background-position-y: center;
+}
+
+#socialicons{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 130px;
+}
+
+.facebook{
+    position: relative;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.instagram{
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.youtube{
+    position: relative;
+    height: 45px;
+    top: 8px;
+    padding: 0px 10px;
+}
+
+#content{
+    max-width: 900px;
+    margin-top:60px;
+}
+
+.box{
+    position: relative;
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    bottom: 30px;
+}
+
+.box2{
+    position: relative;
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    bottom: 30px;
+}
+
+.box3{
+    position: relative;
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    bottom: 30px;
+}
+
+#content h2, a{
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#content p{
+    text-align: left;
+}
+
+footer{
+    background-color: #56C174;
+    color: #fff;
+    text-align: center;
+    padding: 10PX;
+}
+
