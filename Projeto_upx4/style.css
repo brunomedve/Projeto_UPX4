@@ -189,3 +189,51 @@ footer{
     padding: 10PX;
 }
 
+.imagens {
+    display: flex; 
+  }
+
+  .imagens img {
+    width: 51%;
+    height: auto;
+  }
+
+  .cardquem {
+    width: 100%;
+    background-color: #fafafb;
+    box-shadow: 0 4px 10px #0000001a;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 2%;  
+    margin-bottom: 2%;
+
+  }
+
+  .cardquem h2 {
+    margin-bottom: 2%;
+  }
+  .cardparceiros {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #fafafb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .colunap {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .rowp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .icon {
+    width: 100px; /* Ajuste o tamanho desejado para os ícones */
+    height: 50px; /* Mantenha a proporção da imagem */
+    margin-right: 10px;
+  }
